@@ -1,0 +1,338 @@
+@media only screen and (min-width: 700px){
+				body{
+								width: 80%;
+				}
+				h1,h2,h3,h4,h5,h6,p{
+								width: 50%;
+				}
+				img{
+								width: 75%;
+				}
+}
+@media only screen and (min-width: 2000px){
+				body{
+								width: 75%;
+				}
+				h1,h2,h3,h4,h5,h6,p{
+								width: 25%;
+				}
+				img{
+								width: 35%;
+				}
+}
+html{
+				padding: 0;
+				margin: 0;
+}
+body{
+				padding: 0;
+				margin: 0;
+				color: #f5f7fa;
+				background: black;
+				line-height: 1.8;
+}
+section {
+				position: relative;
+  			border-bottom: .1px #212121 solid;
+  			padding: 75px 25px 75px 25px;
+  			z-index: 1;
+  			overflow: hidden;
+  			backface-visibility: hidden;
+}
+
+section span {
+  			position: relative;
+  			display: inline-block;
+  			outline: none;
+  			color: #f5f7fa;
+  			vertical-align: bottom;
+  			text-decoration: none;
+  			white-space: nowrap;
+}
+
+section span::before,
+section span::after {
+  			pointer-events: none;
+  			backface-visibility: hidden;
+  			font-smoothing: antialiased;
+}
+    
+h1,h2,h3,h4,h5,h6,p{
+				margin: 0;
+				padding: 0;
+				padding-bottom: 15px;
+				position: relative;
+}
+p{
+				padding-top: 15px;
+				padding-bottom: 15px;
+				font-size: 12px;
+				color: #bdbdbd;
+}
+#nav{
+				padding: 10px 25px 10px 25px;
+				margin: 0;
+				display: flex;
+				align-content: center;
+				align-items: center;
+				background-repeat: no-repeat;
+}
+#nav img{
+				width: 45px;
+				height: 45px;
+				margin: 0;
+				padding: 0;
+}
+#nav h1,h2,h3,h4,h5,h6,p{
+				padding: 0;
+				margin: 0;
+}
+#nav span{
+				color: #33D8CC;
+}
+section i{
+				color: #33D8CC;
+}
+.fl{
+				display: flex;
+				padding: 0;
+}
+.fl h1,h2,h3,h4,h5,h6,p{
+				margin: 0;
+				padding: 0;
+				margin-left: 20px;
+}
+.fl i{
+				color: #f5f7fa;
+				background: #33D8CC;
+				padding: 5px;
+				border-radius: 100px;
+}
+.c img{
+				width: 100%;
+				margin: 0;
+				padding: 0;
+				height: auto;
+				background: white;
+				border-radius: 5px 5px 0 0;
+}
+.fl .c{
+				width: 50%;
+				height: auto;
+				padding: 0;
+				border-radius: 5px;
+				background: #212121;
+				transition: .5s transform;
+}
+.fl .c:hover{
+				transform: scale(.9);
+}
+.colr{
+				margin: 5px;
+				margin-bottom: 10px;
+				border-radius: 5rem;
+				width: 25px;
+				height: 25px;
+				border: none;
+}
+.c{
+				padding: 15px;
+				border-radius: 5px;
+				background: #212121;
+				margin-bottom: 5px;
+}
+.timec{
+				padding: 15px;
+				border-radius: 5px;
+				background: #212121;
+				margin-bottom: 5px;
+				border: 1px #33d8cc solid;
+				box-shadow: 0 0 15px -5px #33d8cc;
+}
+.fc{
+				padding: 15px;
+				display: flex;
+				align-content: center;
+				align-items: center;
+				border-radius: 5px;
+				background: #212121;
+				margin-bottom: 5px;
+}
+#pi1{
+				transition: 1s filter;
+}
+#pi1:hover{
+				filter: hue-rotate(360deg) saturate(0) brightness(0.2);
+}
+#pi2{
+				transition: 1s filter;
+}
+#pi2:hover{
+				filter: hue-rotate(360deg) saturate(0) brightness(0.2);
+}
+.cform{
+				margin: 15px;
+				padding: 0;
+				border-radius: 5px;
+				background: #212121;
+				margin-bottom: 5px;
+				box-shadow: 0 0 15px -5px #212121;
+				padding-bottom: 15px;
+				overflow: hidden;
+				transition: .5s transform;
+}
+.cform:hover{
+				transform: scale(.9);
+}
+.cform img{
+				width: 100%;
+				z-index: 2;
+				height: auto;
+				border-radius: 5px 5px 0 0;
+				margin-bottom: 15px;
+				transition: 5s filter;
+}
+.cform img:hover{
+				filter: hue-rotate(360deg);
+}
+.cform h1,h2,h3,h4,h5,h6,p,input,button{
+				margin-left: 15px;
+				margin-right: 15px;
+				z-index: 2;
+}
+.cform input{
+				border: none;
+				outline: none;
+				background: #6c6c6c;
+				color: #f5f7fa;
+				border-radius: 25px;
+				padding: 5px;
+				padding-left: 10px;
+				padding-right: 10px;
+				width: 80%;
+}
+.cform input::placeholder{
+				color: #f5f7fa;
+}
+.b1{
+				padding: 10px;
+				padding-left: 50px;
+				padding-right: 50px;
+				background: #33d8cc;
+				border: none;
+				outline: none;
+				border-radius: 5rem;
+				color: black;
+				font-variant: all-small-caps;
+				transition: .3s color, .5s background, .2s transform;
+}
+.b1:hover{
+				background: #33d8cc;
+				color: black;
+				transform: scale(1.1);
+}
+.cb{
+				padding: 15px;
+				border-radius: 5px;
+				background: #212121;
+				margin-bottom: 5px;
+				transform: scale(0.9);
+				transition: .5s color, .5s background, .4s transform;
+}
+i{
+				color: #33D8CC;
+				padding: 5px;
+				transition: .5s color;
+}
+.cb:hover i{
+				color: black;
+}
+.cb:hover{
+				color: black;
+				background: #33D8CC;
+				transform: scale(1);
+}
+.link-svgline span svg.link-svgline {
+  			position: absolute;
+ 				z-index: -1;
+ 				top: 100%;
+ 				left: 0;
+ 				overflow: hidden;
+ 				margin: 0;
+  			width: 100%;
+  			height: 20px; 
+  			transition: stroke-dashoffset 0.3s;
+  			transform: translateY(-90%);
+  			fill: none;
+  			stroke: #096468;
+  			stroke-width: 5;
+  			stroke-dasharray: 400px; 
+  			stroke-dashoffset: 400px;
+}
+
+.link-svgline span:hover svg.link-svgline {
+  			stroke-dashoffset: 0px; 
+}
+        
+.svg-wrap {
+  			position: absolute;
+  			width: 0px;
+  			height: 0px;
+  			overflow: hidden;
+}
+#footer{
+				padding: 25px;
+}
+#footer fl{
+				width: 50%;
+}
+a{
+				text-decoration: none;
+				color: #f5f7fa;
+}
+li{
+				transition: .3s transform;
+}
+li:hover{
+				transform: scale(1.1);
+}
+ul{
+				list-style: none;
+				text-indent: -1;
+				padding: 20px;
+				margin: 0;
+}
+ul li{
+				margin: 0;
+				padding: 0;
+}
+ol li{
+				background: #212121;
+				border-radius: 5px;
+				padding: 15px;
+				font-size: 12px;
+				margin-bottom: 5px;
+}
+.liwarn{
+				background: #ff5f55;
+				border-radius: 5px;
+				padding: 15px;
+				font-size: 12px;
+				margin-bottom: 5px;
+}
+.liwarn i{
+				color: white;
+}
+.lisuc{
+				background: black;
+				padding: 15px;
+				font-size: 12px;
+				margin-bottom: 5px;
+}
+.lisuc i{
+				color: #33D8CC;
+}
+#footer .dis{
+				color: #bdbdbd;
+}
+#aSide { height: 600px; width: 600px; position: absolute; top: calc(50% - 250px); right: 7%; } /* This styles the 3D object inserted in the aside container */ #aSide model-viewer { height: 600px; width: 600px; position: absolute; top: 0; left: 0; border: none; }
